@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Maker Meetup: Workshops are a hands-on workshops on arduino, 3D printing and micro-location.</title>
+	<title>Maker Meetup: Workshops are a hands-on workshops on Arduino, 3D printing and micro-location.</title>
 
     <link rel="shortcut icon" href="static/img/makerland_favicon_SMALL.ico" />
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -35,17 +35,20 @@
 	    <img src="static/img/logo.png" class="header_agenda" />
 	</div>
 
-	 <nav>
-
-	 	<a href="javascript:void(0);" id="goto_what" class="button">WHAT IS MAKER MEETUP?</a>
-	    <a href="javascript:void(0);" id="goto_workshops" class="button">WORKSHOPS</a>
-	    <a href="javascript:void(0);" id="goto_tickets" class="button">TICKETS</a>
-	    <a href="javascript:void(0);" id="goto_faq" class="button">FAQ</a>
-	    <a href="javascript:void(0);" id="goto_team" class="button">TEAM</a>
-		<a href="javascript:void(0);" id="goto_tldr" class="button">TL;DR</a>
-	    <div class="cls"></div>
-	</nav>
 </div>
+
+<nav>
+    <div id="wrapper">
+    <a href="javascript:void(0);" id="goto_what" class="button">WHAT IS MAKER MEETUP?</a>
+    <a href="javascript:void(0);" id="goto_workshops" class="button">WORKSHOPS</a>
+    <a href="javascript:void(0);" id="goto_tickets" class="button">TICKETS</a>
+    <a href="javascript:void(0);" id="goto_sponsors" class="button">PARTNERS</a>
+    <a href="javascript:void(0);" id="goto_faq" class="button">FAQ</a>
+    <a href="javascript:void(0);" id="goto_team" class="button">TEAM</a>
+    <a href="javascript:void(0);" id="goto_tldr" class="button">TL;DR</a>
+    <div class="cls"></div>
+    </div>
+</nav>
 
 <div class="agenda-intro" id="what">
 	<div class="wrapper">
@@ -56,8 +59,10 @@
 		</p>
 		<p class="right">
 		  	<div class="numbers">
-	            <p style="margin-bottom: 20px">Saturday, 16th Nov<br />
-	            Warsaw, Poland
+	            <p style="margin-bottom: 20px">
+                    <a href="https://www.facebook.com/Gammafactory">Gamma Factory</a>
+                    Saturday, 16th Nov<br />
+	                Warsaw, Poland
 	            </p>
 	            <a href="https://tito.io/maker-meetup/maker-meetup-workshops" class="button-red">Get tickets</a>
 	        </div>
@@ -78,28 +83,14 @@
 </div>
 
 <div class="agenda-content">
-		<div id="workshop1" class="workshop">
-			<h3>Bluetooth Low Energy & Micro-location</h3>
-			<img src="static/img/niemczura.png" class="leader" width="128" />
-
-			<p><strong>Szymon Niemczura is a co-founder of technology startup Kontakt</strong> that is building micro-location solutions with Bluetooth Low Energy Beacons. During his workshop you will learn how to control your lights or lock your computer automatically when you leave your room. </p>
-		</div>
-
-		<div id="workshop2" class="workshop">
-			<h3>Build your own Arduino</h3>
-			<img src="static/img/jakobiec.png" class="leader" width="128" />
-
-			<p><strong>Lukasz Jakobiec is an owner of <a href="http://wemakerobots.com">WeMakeRobots</a></strong>, site focused on electronics, design and creation of mobile robots. In his workshop he will teach you how to build your own Arduino for as little as 25 PLN. <br /> Of course, when you're done, you can take it home!</p>
-		</div>
-
-		<div id="workshop3" class="workshop">
+        <div id="workshop1" class="workshop">
 			<h3>3D Printing</h3>
 			<img src="static/img/fraczek.png" class="leader" width="128" />
 
-			<p><strong>Michal Fraczek is a community manager of <a href="http://materialination.com/">Materialination</a></strong>, the biggest comunity of 3D printing fans. His 3D printing workshops will show you how to transform your models into physical objects. <br /> Everything you print during workshops belongs to you :)</p>
+			<p><strong>Michal Fraczek is a community manager of <a href="http://materialination.com/">Materialination</a></strong>, the biggest comunity of 3D printing fans. Together with Andrzej Palikowski they will lead a 3D printing workshop to show you how to transform your models into physical objects. <br /> Everything you print during workshops belongs to you :)</p>
 		</div>
 
-		<div id="workshop4" class="workshop">
+		<div id="workshop2" class="workshop">
 			<h3>3D Modeling</h3>
 			<img src="static/img/dabrowski.png" class="leader" width="128" />
 
@@ -107,10 +98,30 @@
 			of <a href="http://getloko.co/">LOKO</a> team.</strong> 3D tinkerer, maker & design adventurer. He will show you how to transform your 2D ideas into 3D models that you can print during or after Maker Meetup!</p>
 		</div>
 
-		<div id="workshop5" class="workshop">
-			<h3>Building Lego Mindstorms robots</h3>
-			<p>Details will be announced soon.</p>
+        <div id="workshop3" class="workshop">
+			<h3>First steps with Arduino Yún </h3>
+			<p>Learn how Arduino platform works and take your first steps in the Internet of Things world with the newest addition to the Arduino family: Arduino Yún. Workshop leader will be announced soon. </p>
 		</div>
+
+
+        <div id="workshop4" class="workshop">
+			<h3>Building robots with Lego Mindstorms</h3>
+            <img src="static/img/jakobiec.png" class="leader" width="128" />
+			<p><b>Krzysztof Bieńkowski is a Lego Builder and owner of <a href="http://icount.pl">iCount.pl - Robotics workshops for children</a>.</b> He and his friends will show you how to build and program robots with Lego Mindstorms.</p>
+		</div>
+        <div id="workshop5" class="workshop">
+			<h3>Build your own Arduino</h3>
+			<img src="static/img/jakobiec.png" class="leader" width="128" />
+
+			<p><strong>Lukasz Jakobiec is an owner of <a href="http://wemakerobots.com">WeMakeRobots</a></strong>, site focused on electronics, design and creation of mobile robots. In his workshop he will teach you how to build your own Arduino for as little as 25 PLN. <br /> Of course, when you're done, you can take it home!</p>
+		</div>
+		<div id="workshop6" class="workshop">
+			<h3>Bluetooth Low Energy & Micro-location</h3>
+			<img src="static/img/niemczura.png" class="leader" width="128" />
+
+			<p><strong>Szymon Niemczura is a co-founder of technology startup Kontakt</strong> that is building micro-location solutions with Bluetooth Low Energy Beacons. During his workshop you will learn how to control your lights or lock your computer automatically when you leave your room. </p>
+		</div>
+
 
 	</div>
 </div>
@@ -118,9 +129,9 @@
 <div id="tickets">
 	<h2>Still waiting? Get your ticket now!</h2>
 	<p>
-		<s>Early bird ticket costs 150 PLN + 23% VAT.</s> Early Bird tickets sold out in just 4 hours! <br /><b>We will start selling Regular tickets that cost 244 PLN + 23% VAT on Monday, 16th September at 3pm CET.</b><br /> Each ticket includes:<br />
+	<b>Regular tickets that cost 244 PLN + 23% VAT.</b> Each ticket includes:<br />
 		- great breakfast and yummy lunch served by Bułka & Spółka<br />
-		- 5 x one hour long workshops<br />
+		- 6 x one hour long workshops<br />
 		- drinks and snacks during the day<br />
 		- all hardware and equipement you may need during the workshops<br />
 		- hardware you need to build your own Arduino during one of the workshops (& you can take it home!)<br />
@@ -133,6 +144,85 @@
 </div>
 
 <div class="cls" style="height: 50px"></div>
+
+<div id="sponsors">
+    <h2>They make it even more <img src="static/img/awesome.png" id="awesome" /></h2>
+
+    <div class="partner">
+        <div class="i"><a href="http://hardgamma.com/"><img src="static/img/partners/hardgamma.png" /></a></div>
+        <p>
+            <span><a href="http://hardgamma.com/">HardGamma Ventures</a></span>
+            HardGamma is a Warsaw based investment fund with connections to leading startup incubators like Seedcamp or
+            TechStars. They support local startup community by running Gamma Rebels incubator program or hosting great
+            events in Gamma Factory, the most creative co-working and event space in town.
+        </p>
+        <div class="cls"></div>
+    </div>
+
+    <div class="partner">
+        <div class="i"><a href="http://elpassion.pl/"><img src="static/img/partners/elpassion.png" /></a></div>
+        <p>
+            <span><a href="http://elpassion.pl/">EL Passion</a></span>
+            EL Passion is a software house that builds rock solid Ruby on Rails, iOS and Android application as well as
+            design user interfaces for Web and Mobile. They are really cool folks and we heard that <a href="http://www.elpassion.pl/careers">they're also hiring</a>!
+        </p>
+        <div class="cls"></div>
+    </div>
+
+    <div class="partner">
+        <div class="i"><a href="http://kontakt.io/"><img src="static/img/partners/kontakt.png" style="margin-top: 30px;" /></a></div>
+        <p>
+            <span><a href="http://kontakt.io/">Kontakt</a></span>
+            Kontakt is allowing you to build your micro-location enabled application in a really simple and fast way. Thanks to
+            Bluetooth Low Energy and Kontakt's Beacon devices you can start develop today! <a href="http://kontakt.io/pre-order/">Pre-order dev kits here</a>.
+        </p>
+        <div class="cls"></div>
+    </div>
+
+    <div class="partner">
+        <div class="i"><a href="http://materialination.com/"><img src="static/img/partners/materialination.png" style="margin-top: 15px;" /></a></div>
+        <p>
+            <span><a href="http://materialination.com/">Materialination</a></span>
+            Materialination is the biggest Polish 3D Printing community based in Kraków. They organize events and workshops,
+            sell 3D printers and allow you to transform your 3D models into real products. <a href="http://materialination.com/">Check them out</a>.
+        </p>
+        <div class="cls"></div>
+    </div>
+
+    <div class="partner">
+        <div class="i"><a href="http://icount.pl/"><img src="static/img/partners/icount.png" style="margin-top: 30px;" /></a></div>
+        <p>
+            <span><a href="http://icount.pl/">iCount</a></span>
+            iCount is a company that organizes workshops and courses about robotics for children. They use Lego Mindstorms to
+            show kids how to build things and inspire them to learn about programming.
+        </p>
+        <div class="cls"></div>
+    </div>
+    <div class="partner">
+        <div class="i"><a href="http://getloko.co/"><img src="static/img/partners/loko.png"/></a></div>
+        <p>
+            <span><a href="http://getloko.co/">LOKO</a></span>
+            The Loko smart lock is a secure, simple, and social way to manage your home/office or real estate lock.
+
+        </p>
+        <div class="cls"></div>
+    </div>
+    <div class="partner">
+        <div class="i"><a href="http://issuestand.com/"><img src="static/img/partners/is.png" style="margin-top: 35px;" /></a></div>
+        <p>
+            <span><a href="http://issuestand.com/">Issue Stand</a></span>
+            Issue Stand provides a tool for magazine publishers to transform their magazines into mobile application for iPads and Android tablets in a simple and fast way.
+
+        </p>
+        <div class="cls"></div>
+    </div>
+
+    <div class="cls"></div>
+
+</div>
+
+
+
 <div id="wrapper">
 <a href="mailto:sponsor@makerland.org">
 <div class="sponsors"></div>
@@ -226,7 +316,7 @@
 	<h2>TL;DR</h2>
         <div>
         	<p>Saturday, 16th November, 9am - 7pm; center of Warsaw, Poland</p>
-        	<p>5 workshop stations: Build your own arduino, 3D modeling, Lego Mindstorms, 3D printing, Bluetooth 4.0 and Micro-location. Asynchronous stations, small groups, take as much or as little time as you need and move on to the next station. </p>
+        	<p>6 workshop stations: Build your own arduino, 3D modeling, Lego Mindstorms, Arduino Basics, 3D printing, Bluetooth 4.0 and Micro-location. Asynchronous stations, small groups, take as much or as little time as you need and move on to the next station. </p>
         	<p><s>Early Bird: 150 PLN + VAT.</s> Regular Ticket: 244 PLN + VAT. Equipement, hardware, workshops and food included.</p>
         	<p>Organized by Ola and Kuba, guys behind HACKWAW and DjangoCon Europe</p>
         </div>

@@ -7,4 +7,13 @@ $(document).ready(function(){
 	});
 
 
+    $(document).scroll(function() {
+        if ($(document).scrollTop()<364 && $('nav').css('position')=='fixed'){
+            $('nav').css('position', 'static');
+        } else if ($(document).scrollTop()>=364 && $('nav').css('position')=='static'){
+            $('nav').css('position', 'fixed');
+        }
+
+    });
+
 });
